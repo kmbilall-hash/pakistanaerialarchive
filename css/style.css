@@ -24,9 +24,9 @@ nav a{color:#fff;text-decoration:none;margin-left:22px}
     width:min(92%,1400px);
     margin:auto;
     display:flex;
-    justify-content:space-between;
     align-items:center;
-    padding:10px 0;
+    justify-content:space-between;
+    padding:12px 0;
 }
 
 .logo{
