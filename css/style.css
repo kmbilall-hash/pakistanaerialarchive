@@ -93,12 +93,98 @@ nav a:hover::after{
 /* =======================================
    Responsive Design
 ======================================= */
-@media (max-width:1024px){
+@media (max-width:768px){
+
+    .container{
+        flex-direction:column;
+        align-items:center;
+        gap:15px;
+    }
+
+    .logo{
+        flex-direction:column;
+        text-align:center;
+        gap:8px;
+    }
+
+    .logo img{
+        width:80px;
+    }
+
+    .logo h2{
+        font-size:24px;
+    }
+
+    .logo span{
+        font-size:11px;
+        letter-spacing:1px;
+    }
+
+    nav{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:18px;
+    }
+
+    nav a{
+        margin:0;
+        font-size:15px;
+    }
+
+    .hero{
+        text-align:center;
+    }
+
+    .hero-content{
+        max-width:100%;
+        padding:220px 25px 80px;
+    }
+
+    .hero h1{
+        font-size:46px;
+        line-height:1.1;
+    }
+
+    .hero p{
+        font-size:18px;
+    }
+
+    .btn{
+        display:block;
+        width:100%;
+        margin:12px 0;
+    }
 
 }
+
 @media (max-width:480px){
 
+    .hero h1{
+        font-size:36px;
+    }
+
+    .hero p{
+        font-size:16px;
+    }
+
+    .logo img{
+        width:70px;
+    }
+
+    .logo h2{
+        font-size:20px;
+    }
+
+    nav{
+        gap:12px;
+    }
+
+    nav a{
+        font-size:14px;
+    }
+
 }
-@media (max-width:768px){
+@media (max-width:1024px){
 
 }
