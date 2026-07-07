@@ -1,1 +1,6 @@
-window.addEventListener('scroll',()=>{const n=document.querySelector('.nav');n.style.background=scrollY>50?'rgba(0,0,0,.75)':'rgba(0,0,0,.25)';});
+const menuToggle = document.getElementById("menu-toggle");
+const navMenu = document.getElementById("nav-menu");
+
+menuToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("active");
+});
