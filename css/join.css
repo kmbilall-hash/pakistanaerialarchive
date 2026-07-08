@@ -234,4 +234,32 @@ background-position:center;;
 
     color:#ccc;
 
+}.form-heading{
+
+    margin-top:25px;
+
+    margin-bottom:10px;
+
+    color:#00B36B;
+
+    font-size:18px;
+
+    font-weight:600;
+
+}.join-form select{
+
+    background:rgba(255,255,255,.06);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    padding:16px;
+
+    border-radius:12px;
+
+    color:#fff;
+
+    font-size:16px;
+
+    outline:none;
+
 }
