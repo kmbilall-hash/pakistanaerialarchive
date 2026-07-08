@@ -1,12 +1,26 @@
 .join-page{
 
-    min-height:100vh;
+    min-height:calc(100vh - 90px);
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    align-items:stretch;
+    .join-left,
+.join-right{
+}
 
     display:grid;
 
     grid-template-columns:1fr 1fr;
 
-    background:#050505;
+    background:linear-gradient(
+rgba(0,0,0,.82),
+rgba(0,0,0,.82)
+),
+url("../images/hero.jpeg");
+
+background-size:cover;
+
+background-position:center;;
 
     padding:120px 8% 80px;
 
