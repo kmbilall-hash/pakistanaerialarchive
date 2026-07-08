@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Join the Archive | Pakistan Aerial Archive</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/join.css">
+
+</head>
+
+<body>
+
+<header class="nav">
+
+    <div class="container">
+
+        <a href="index.html" class="logo">
+
+            <img src="images/logo.png" alt="Pakistan Aerial Archive Logo">
+
+            <div>
+
+                <h2>Pakistan Aerial Archive</h2>
+
+                <span>The Definitive Visual Archive</span>
+
+            </div>
+
+        </a>
+
+        <nav>
+
+            <a href="index.html">Home</a>
+
+            <a href="#">Explore</a>
+
+            <a href="#">Operators</a>
+
+            <a href="#">Marketplace</a>
+
+            <a href="#">Contact</a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<section class="join-page">
+
+    <div class="join-left">
+
+        <h1>Become a Founding Member</h1>
+
+        <p>
+            Join Pakistan's first aerial archive and showcase your drone work to the world.
+        </p>
+
+    </div>
+
+    <div class="join-right">
+
+    <h2>Join the Archive</h2>
+
+    <form class="join-form">
+
+        <input type="text" placeholder="Full Name" required>
+
+        <input type="email" placeholder="Email Address" required>
+
+        <input type="tel" placeholder="Phone Number">
+
+        <input type="text" placeholder="Country" value="Pakistan">
+
+        <input type="text" placeholder="Province">
+
+        <input type="text" placeholder="City">
+
+        <input type="text" placeholder="Drone Brand">
+
+        <input type="text" placeholder="Drone Model">
+
+        <input type="text" placeholder="Camera">
+
+        <input type="number" placeholder="Years of Experience">
+
+        <button type="submit">
+            Become a Founding Member
+        </button>
+
+    </form>
+
+</div>
+
+</section>
+
+</body>
+
+</html>
