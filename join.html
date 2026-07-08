@@ -110,66 +110,59 @@
 
     <h2>Join the Archive</h2>
 
-    <form class="join-form">
-<h3 class="form-heading">
-Personal Information
-</h3>
-        <input type="text" placeholder="Full Name" required>
+    <form class="join-form" id="joinForm">
 
-        <input type="email" placeholder="Email Address" required>
+<h3 class="form-heading">Personal Information</h3>
 
-        <input type="tel" placeholder="Phone Number">
+<input type="text" id="fullName" placeholder="Full Name" required>
 
-        <input type="text" placeholder="Country" value="Pakistan">
+<input type="email" id="email" placeholder="Email Address" required>
 
-        <select>
+<input type="password" id="password" placeholder="Create Password" required>
 
-<option>Select Province</option>
+<input type="tel" id="phone" placeholder="Phone Number">
 
-<option>Punjab</option>
+<input type="text" id="country" value="Pakistan">
 
-<option>Sindh</option>
+<select id="province">
+    <option>Select Province</option>
+    <option>Punjab</option>
+    <option>Sindh</option>
+    <option>Khyber Pakhtunkhwa</option>
+    <option>Balochistan</option>
+    <option>Gilgit Baltistan</option>
+    <option>Azad Jammu & Kashmir</option>
+    <option>Islamabad Capital Territory</option>
+</select>
 
-<option>Khyber Pakhtunkhwa</option>
+<input type="text" id="city" placeholder="City">
 
-<option>Balochistan</option>
+<h3 class="form-heading">Professional Information</h3>
 
-<option>Gilgit Baltistan</option>
+<input type="text" id="droneBrand" placeholder="Drone Brand">
 
-<option>Azad Kashmir</option>
+<input type="text" id="droneModel" placeholder="Drone Model">
 
-<option>Islamabad Capital Territory</option>
+<input type="text" id="camera" placeholder="Camera">
 
-</select> 
+<input type="number" id="experience" placeholder="Years of Experience">
 
-        <input type="text" placeholder="City">
+<h3 class="form-heading">Portfolio</h3>
 
-        <input type="text" placeholder="Drone Brand">
-<h3 class="form-heading">
-Professional Information
-</h3>
-        <input type="text" placeholder="Drone Model">
+<input type="url" id="instagram" placeholder="Instagram Profile">
 
-        <input type="text" placeholder="Camera">
+<input type="url" id="website" placeholder="Website">
 
-        <input type="number" placeholder="Years of Experience">
-<h3 class="form-heading">
-Portfolio
-</h3>
+<button type="submit">
+Become a Founding Member
+</button>
 
-<input type="url" placeholder="Instagram">
-
-<input type="url" placeholder="Website">
-        <button type="submit">
-            Become a Founding Member
-        </button>
-
-    </form>
+</form>
 
 </div>
 
 </section>
-
+<script type="module" src="js/auth.js"></script>
 </body>
 
 </html>
