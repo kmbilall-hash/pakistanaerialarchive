@@ -1,208 +1,50 @@
-/* ==========================================
+/* ============================
    Pakistan Aerial Archive
    Global Styles
-========================================== */
+============================ */
 
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
 }
 
 body{
 
-    background:#0f172a;
+    font-family: "Segoe UI", Arial, sans-serif;
 
-    color:white;
+    background:#08111f;
 
-    min-height:100vh;
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-    padding:40px;
+    color:#ffffff;
 
 }
 
-/* Card */
-
-.register-card{
-
-    width:100%;
-
-    max-width:700px;
-
-    background:#1e293b;
-
-    padding:40px;
-
-    border-radius:18px;
-
-    box-shadow:0 0 30px rgba(0,0,0,.45);
-
-}
-
-/* Headings */
-
-.register-card h1{
-
-    font-size:34px;
-
-    color:#16a34a;
-
-    margin-bottom:10px;
-
-}
-
-.register-card h2{
-
-    margin-bottom:10px;
-
-}
-
-.register-card p{
-
-    color:#cbd5e1;
-
-    margin-bottom:25px;
-
-}
-
-/* Section Titles */
-
-.register-card h3{
-
-    margin-top:30px;
-
-    margin-bottom:15px;
-
-    color:#22c55e;
-
-}
-
-/* Inputs */
-
-input,
-select{
-
-    width:100%;
-
-    padding:14px;
-
-    margin-bottom:15px;
-
-    border:none;
-
-    border-radius:8px;
-
-    background:#334155;
-
-    color:white;
-
-    font-size:15px;
-
-}
-
-input::placeholder{
-
-    color:#94a3b8;
-
-}
-
-select{
-
-    cursor:pointer;
-
-}
-
-/* Checkbox */
-
-.checkbox{
-
-    display:flex;
-
-    align-items:center;
-
-    gap:10px;
-
-    margin-top:10px;
-
-    margin-bottom:20px;
-
-}
-
-.checkbox input{
-
-    width:auto;
-
-}
-
-/* Button */
-
-button{
-
-    width:100%;
-
-    padding:16px;
-
-    background:#16a34a;
-
-    border:none;
-
-    color:white;
-
-    font-size:16px;
-
-    border-radius:8px;
-
-    cursor:pointer;
-
-    transition:.3s;
-
-}
-
-button:hover{
-
-    background:#15803d;
-
-}
-
-/* Login */
-
-.login-link{
-
-    text-align:center;
-
-    margin-top:20px;
-
-}
-
-.login-link a{
-
-    color:#22c55e;
+a{
 
     text-decoration:none;
 
-}
-
-.login-link a:hover{
-
-    text-decoration:underline;
+    color:inherit;
 
 }
 
-/* Mobile */
+img{
 
-@media(max-width:768px){
+    max-width:100%;
 
-.register-card{
-
-padding:25px;
+    display:block;
 
 }
+
+.container{
+
+    width:90%;
+
+    max-width:1300px;
+
+    margin:auto;
 
 }
