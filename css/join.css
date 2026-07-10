@@ -1,0 +1,105 @@
+/* ==========================================
+   JOIN PAGE
+========================================== */
+
+.join-page{
+
+    min-height:100vh;
+
+    display:grid;
+
+    grid-template-columns:1.4fr .9fr;
+
+}
+
+/* ==========================================
+   NAVBAR
+========================================== */
+
+.nav{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    z-index:1000;
+
+    background:rgba(5,10,20,.85);
+
+    backdrop-filter:blur(12px);
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+}
+
+.nav .container{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 0;
+
+}
+
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+.logo img{
+
+    width:60px;
+
+}
+
+.logo h2{
+
+    font-size:24px;
+
+    color:white;
+
+}
+
+.logo span{
+
+    font-size:13px;
+
+    color:#8fa5b8;
+
+}
+
+nav{
+
+    display:flex;
+
+    gap:30px;
+
+}
+
+nav a{
+
+    color:white;
+
+    transition:.3s;
+
+    font-size:15px;
+
+}
+
+nav a:hover{
+
+    color:#00d084;
+
+}
