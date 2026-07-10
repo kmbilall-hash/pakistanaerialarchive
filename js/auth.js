@@ -1,4 +1,8 @@
 import {
+    auth
+} from "../firebase/firebase.js";
+
+console.log("Auth object:", auth);
     auth,
     db,
     createUserWithEmailAndPassword,

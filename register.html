@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Operator Registration | Pakistan Aerial Archive</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="register-container">
+
+    <div class="register-card">
+
+        <h1>Pakistan Aerial Archive</h1>
+
+        <h2>Create Operator Account</h2>
+
+        <p>
+            Join Pakistan's largest community of drone operators and aerial photographers.
+        </p>
+
+        <form id="registerForm">
+
+            <!-- Personal Information -->
+
+            <h3>Personal Information</h3>
+
+            <input
+                type="text"
+                id="fullName"
+                placeholder="Full Name"
+                required>
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Email Address"
+                required>
+
+            <input
+                type="password"
+                id="password"
+                placeholder="Password"
+                required>
+
+            <input
+                type="password"
+                id="confirmPassword"
+                placeholder="Confirm Password"
+                required>
+
+            <!-- Location -->
+
+            <h3>Location</h3>
+
+            <input
+                type="text"
+                id="country"
+                placeholder="Country"
+                value="Pakistan"
+                required>
+
+            <input
+                type="text"
+                id="province"
+                placeholder="Province"
+                required>
+
+            <input
+                type="text"
+                id="city"
+                placeholder="City"
+                required>
+
+            <!-- Equipment -->
+
+            <h3>Drone Equipment</h3>
+
+            <input
+                type="text"
+                id="droneBrand"
+                placeholder="Drone Brand">
+
+            <input
+                type="text"
+                id="droneModel"
+                placeholder="Drone Model">
+
+            <input
+                type="text"
+                id="camera"
+                placeholder="Camera">
+
+            <!-- Social -->
+
+            <h3>Social Media</h3>
+
+            <input
+                type="text"
+                id="instagram"
+                placeholder="Instagram Username">
+
+            <!-- Experience -->
+
+            <h3>Experience</h3>
+
+            <select id="experience">
+
+                <option value="">Years of Experience</option>
+
+                <option>Beginner (0-1 Year)</option>
+
+                <option>2-5 Years</option>
+
+                <option>5-10 Years</option>
+
+                <option>10+ Years</option>
+
+            </select>
+
+            <label class="checkbox">
+
+                <input
+                    type="checkbox"
+                    required>
+
+                I agree to the Terms & Conditions.
+
+            </label>
+
+            <button type="submit">
+
+                Create Account
+
+            </button>
+
+            <p class="login-link">
+
+                Already have an account?
+
+                <a href="login.html">
+
+                    Login Here
+
+                </a>
+
+            </p>
+
+        </form>
+
+    </div>
+
+</div>
+
+<script type="module" src="js/register.js"></script>
+
+</body>
+
+</html>
